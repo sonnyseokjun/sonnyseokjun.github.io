@@ -1,0 +1,245 @@
+
+.nanum-pen-script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('picture_background.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.header {
+    background-color: skyblue;
+    border: 4px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.href_photo {
+  padding: 0 20px;
+  width: 25px;
+  height: 25px;
+}
+   
+
+
+
+.hi {
+    text-align: center;
+    background-color: ivory;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    background-size: cover;
+}
+
+.hi h1 {
+   font-family: "Rowdies", sans-serif;
+   font-size: 100px;
+   font-style: normal;
+   padding-bottom: 0px;
+   padding-top: 0px;
+}
+
+.hi p {
+  font-family: "Rowdies", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    justify-content: center;
+    color: white
+}
+
+#picture2 {
+    width: 540px;
+    height: 540px;
+    border: 6px solid grey;
+    margin-right: 25px;
+}
+
+#about {
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.list {
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+}
+
+.list li {
+  padding: 8px 0;
+}
+
+
+
+
+.section-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: ivory;
+  padding: 25px 0 25px 0;
+  margin: 25px 200px;
+  border: 5px solid black;
+}
+
+
+.section-about h2 {
+    text-align: center;
+}
+
+.slide-container {
+  width: 530px;
+  margin: 0 auto;
+}
+
+/* 슬라이드 앨범 스타일 */
+.slide-album {
+  position: relative;
+  width: 530px;  /* 슬라이더의 너비 설정 */
+  height: 420px; /* 슬라이더의 높이 설정 */
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* 슬라이드 이미지 컨테이너 */
+.slide-images {
+  position: relative;
+  display: flex;
+  height: 100%; /* 슬라이더 전체 높이로 설정 */
+  transition: transform 0.5s ease-out;
+}
+
+/* 슬라이드 안의 이미지 */
+.slide-images img {
+  width: 530px;    /* 슬라이더의 너비와 동일하게 설정 */
+  height: 420px;   /* 슬라이더의 높이와 동일하게 설정 */
+  object-fit: cover; /* 이미지가 잘리더라도 슬라이더 박스를 꽉 채우게 설정 */
+  flex-shrink: 0; /* 이미지들이 줄어들지 않도록 설정 */
+}
+
+
+.explanation {
+  text-align: center;
+}
+
+
+
+.btn-next,
+.btn-next:active,
+.btn-next:focus {
+  position: absolute;
+  padding: 8px 8px 7px 14px;
+  background-color: #6a75ca;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 100%;
+}
+.btn-prev,
+.btn-prev:active,
+.btn-prev:focus {
+  position: absolute;
+  padding: 8px 14px 7px 8px;
+  background-color: #6a75ca;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.btn-next:disabled,
+.btn-prev:disabled {
+  background-color: lightgray;
+}
+.btn-next:hover,
+.btn-prev:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #6a75ca;
+  transition: 0.7s ease-out;
+}
+.btn-prev {
+  left: 18px;
+  top: 50%;
+}
+.btn-next {
+  right: 18px;
+  top: 50%;
+}
+.info-about {
+  margin: 0 0 0 60px;
+}
+.txt-about dt {
+  display: inline-block;
+  margin-bottom: 17px;
+  width: 110px;
+  font-size: 22px;
+  font-family: "GmarketBold";
+  color: #6a75ca;
+}
+.txt-about {
+  margin-top: 55px;
+}
+.txt-about dd {
+  display: inline-block;
+  font-size: 22px;
+}
+.btn-about {
+  margin: 45px 0 0 20px;
+}
+.btn-about button {
+  width: 140px;
+  height: 140px;
+  margin: 0 45px 0 0;
+  border-radius: 100%;
+  background-color: #6a75ca;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.btn-about button:hover {
+  cursor: pointer;
+  background-color: #c4c8f1;
+  color: #868ecf;
+  /* border: 2px solid #6a75ca; */
+  transition: 0.5s ease-out;
+}
+.btn-about button img {
+  width: 43px;
+  margin: 10px auto;
+}
+
+
+
+
+.foot {
+    text-align: center;
+}
+
